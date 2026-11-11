@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cd database
+directory="/home/guilherme/Desktop/Bash/database"
+
+if [ ! -d "$directory" ]; then
+    echo "-1"
+    exit 1
+fi
+
+mkdir -p backups
+
+for FILE in *.txt; 
+do echo $FILE
+cp $FILE backups; 
+done
+
+
+
