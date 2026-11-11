@@ -1,0 +1,32 @@
+MEGAMERCADO - DATABASE OVERVIEW (what is stored)
+
+DATABASE: retail_sales  (~1.8 TB, grows ~40 GB/month)
+  stores ................ store_id, name, city, format, opening_hours
+  products .............. sku, name, category, unit, price, vat, supplier_id
+  sales_transactions .... transaction_id, store_id, date_time, cashier_id, total, payment_method
+  sales_items ........... transaction_id, sku, quantity, unit_price, discount
+  returns ............... return_id, transaction_id, sku, quantity, reason
+  promotions ............ promo_id, sku, start_date, end_date, discount_pct
+
+DATABASE: retail_hr  (~25 GB)
+  employees ............. employee_id, name, department, role, hire_date, contract_type
+  shifts ................ employee_id, store_id, date, start_time, end_time, break_minutes
+  attendance ............ employee_id, date, status (present/absent/vacation), hours_worked
+  payroll ............... employee_id, month, gross, deductions, net
+
+DATABASE: retail_stock  (~300 GB)
+  inventory ............. store_id, sku, quantity, min_level, last_update
+  suppliers ............. supplier_id, name, contact, payment_terms
+  purchase_orders ....... order_id, supplier_id, store_id, order_date, delivery_date, status
+  deliveries ............ delivery_id, order_id, received_date, quantity_received
+
+DATABASE: retail_customers  (~600 GB)  - personal data, GDPR protected
+  customers ............. customer_id, loyalty_card, name, email, city
+  loyalty_points ........ customer_id, points, last_purchase
+  customer_purchases .... customer_id, transaction_id
+
+QUESTIONS THIS DATA CAN ANSWER
+- Which products sold the most in each store each day?
+- Who worked in each store on a given day, and for how many hours?
+- Which products are running low and need to be reordered?
+- What was the revenue per section, per store, per day?

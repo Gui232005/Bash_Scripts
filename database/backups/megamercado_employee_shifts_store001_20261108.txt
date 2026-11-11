@@ -1,0 +1,29 @@
+EMPLOYEE SHIFT REPORT
+Store ........... 001 - MegaMercado Colombo (Lisboa)
+Date ............ 2026-11-08 (Sunday)
+
+SUMMARY
+Employees scheduled ....... 214
+Employees present ......... 207
+Absences (sick/other) ..... 7
+Total hours worked ........ 1,402.5 h
+
+SAMPLE OF EMPLOYEES (8 of 214; all names are fictional)
+ID      NAME               DEPARTMENT    ROLE                SHIFT        BREAK   NET HOURS  STATUS
+E10231  Ana Ferreira       Checkout      Cashier             08:00-16:00  1h      7.0        Present
+E10244  Rui Almeida        Checkout      Cashier             14:00-22:00  1h      7.0        Present
+E10310  Marta Sousa        Bakery        Baker               06:00-14:00  1h      7.0        Present
+E10355  Joao Pereira       Butcher       Butcher             09:00-17:00  1h      7.0        Present
+E10402  Ines Costa         Stock         Stock handler       07:00-15:00  1h      7.0        Present
+E10478  Tiago Martins      Customer Svc  Assistant           10:00-14:00  0h      4.0        Present (part-time)
+E10523  Carla Rodrigues    Fish Counter  Fishmonger          08:00-16:00  1h      7.0        Absent (sick)
+E10590  Pedro Gomes        Security      Security guard      15:00-23:00  1h      7.0        Present
+
+HEADCOUNT BY DEPARTMENT (scheduled)
+Checkout ........... 48
+Stock/Warehouse .... 36
+Fresh (bakery, butcher, fish, fruit) ... 52
+Grocery shelves .... 30
+Customer service ... 14
+Security/Cleaning .. 18
+Management ......... 16
