@@ -2,15 +2,15 @@
 
 mkdir -p monitoring # Here mkdir only create a dir if that dir dosen't exist already
 cd monitoring
-dt=$(date) # Date of the system
+dt=$(date +%F) # Date of the system
 cpu_usage=$(mpstat -u)
 disk=$(df -h)
 process=$(ps -Ao user,uid,comm,pcpu,tty --sort=-pcpu | head -n 6)
 
-echo -e "**$dt**" >> monitoring.md
-echo -e "$cpu_usage \n" >> monitoring.md
-echo -e "$disk \n" >> monitoring.md
-echo -e "$process" >> monitoring.md
-echo "---------------------------------------------" >> monitoring.md
+echo -e "**$dt**" >> monitoring_$dt.md
+echo -e "$cpu_usage \n" >> monitoring_$dt.md
+echo -e "$disk \n" >> monitoring_$dt.md
+echo -e "$process" >> monitoring_$dt.md
+echo "---------------------------------------------" >> monitoring_$dt.md
 
 
