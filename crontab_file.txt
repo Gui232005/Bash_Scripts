@@ -24,7 +24,7 @@
 # m h  dom mon dow   command
 
 #This will run bash cripts everyday at 9:30
-30 9 * * * cd /home/guilherme/Desktop/Bash_Scripts && ./createBackup_bash.txt >> /tmp/cron_backup.log 2>&1
-30 9 * * * cd /home/guilherme/Desktop/Bash_Scripts && ./monitoring_bash.txt >> /tmp/cron_monitor.log 2>&1
+30 9 * * * cd /home/guilherme/Desktop/Bash_Scripts && ./createBackup_bash.txt
+30 9 * * * cd /home/guilherme/Desktop/Bash_Scripts && ./monitoring_bash.txt
 
 

@@ -1,8 +1,8 @@
 **2026-11-12**
 Linux 7.0.0-38-generic (guilherme-VivoBook-ASUSLaptop-X509JA-F509JA) 	11/12/2026 	_x86_64_	(4 CPU)
 
-12:44:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
-12:44:01 PM  all   18,88    0,00    4,06    1,07    0,00    0,23    0,00    0,00    0,00   75,75 
+12:51:01 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+12:51:01 PM  all   18,78    0,00    4,10    1,07    0,00    0,24    0,00    0,00    0,00   75,81 
 
 Filesystem      Size  Used Avail Use% Mounted on
 tmpfs           1,2G  1,8M  1,2G   1% /run
@@ -16,8 +16,8 @@ tmpfs           1,2G  2,6M  1,2G   1% /run/user/1000
 
 USER       UID COMMAND         %CPU TT
 guilher+  1000 ps               200 ?
-guilher+  1000 firefox-bin     24.9 ?
-guilher+  1000 Isolated Web Co 13.4 ?
-guilher+  1000 RDD Process     12.9 ?
-guilher+  1000 Isolated Web Co 10.6 ?
+root         0 cron            25.0 ?
+guilher+  1000 firefox-bin     24.7 ?
+guilher+  1000 RDD Process     13.8 ?
+guilher+  1000 Isolated Web Co 13.6 ?
 ---------------------------------------------
