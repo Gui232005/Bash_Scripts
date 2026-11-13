@@ -1,0 +1,17 @@
+INVENTORY SNAPSHOT
+Store ........... 001 - MegaMercado Colombo (Lisboa)
+Snapshot time ... 2026-11-08 23:59
+
+SKU   PRODUCT                        STOCK     MIN LEVEL  STATUS         NEXT DELIVERY
+1001  Leite Meio-Gordo 1L            3,200     2,000      OK             2026-11-10
+1002  Pao de Forma 500g              640       800        LOW - REORDER  2026-11-09
+1003  Arroz Agulha 1kg               2,150     1,000      OK             2026-11-12
+1004  Azeite Virgem Extra 750ml      415       300        OK             2026-11-11
+1005  Bananas                        210.0 kg  300.0 kg   LOW - REORDER  2026-11-09
+1006  Frango Inteiro                 380.0 kg  350.0 kg   OK             2026-11-09
+1007  Agua Mineral 1.5L              5,400     3,000      OK             2026-11-13
+1008  Detergente Loica 750ml         760       400        OK             2026-11-14
+1009  Cerveja Pack 6x33cl            1,020     600        OK             2026-11-12
+1010  Bacalhau Salgado               95.0 kg   120.0 kg   LOW - REORDER  2026-11-10
+
+ITEMS BELOW MINIMUM LEVEL (in this sample) ... 3

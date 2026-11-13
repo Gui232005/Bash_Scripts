@@ -1,0 +1,16 @@
+MEGAMERCADO - PRODUCT CATALOG (sample of 10 out of ~48,000 products)
+
+SKU   PRODUCT                        CATEGORY     UNIT   PRICE (EUR)  VAT   SUPPLIER
+1001  Leite Meio-Gordo 1L            Laticinios   unit   0.89         6%    SUP-014
+1002  Pao de Forma 500g              Padaria      unit   1.49         6%    SUP-022
+1003  Arroz Agulha 1kg               Mercearia    unit   1.19         6%    SUP-031
+1004  Azeite Virgem Extra 750ml      Mercearia    unit   6.99         6%    SUP-007
+1005  Bananas                        Frutas       kg     1.29         6%    SUP-045
+1006  Frango Inteiro                 Talho        kg     3.99         6%    SUP-019
+1007  Agua Mineral 1.5L              Bebidas      unit   0.55         23%   SUP-003
+1008  Detergente Loica 750ml         Limpeza      unit   2.29         23%   SUP-056
+1009  Cerveja Pack 6x33cl            Bebidas      unit   3.99         23%   SUP-003
+1010  Bacalhau Salgado               Peixaria     kg     11.90        6%    SUP-012
+
+CATEGORIES (examples): Laticinios, Padaria, Mercearia, Frutas, Legumes, Talho, Peixaria,
+Bebidas, Limpeza, Higiene, Congelados, Bazar, Eletronica, Texteis

@@ -1,0 +1,37 @@
+DAILY SALES REPORT
+Store ........... 001 - MegaMercado Colombo (Lisboa)
+Date ............ 2026-11-08 (Sunday)
+Generated at .... 2026-11-09 01:15
+
+STORE TOTALS
+Transactions ............. 4,318
+Items sold ............... 21,906
+Gross sales .............. EUR 187,452.30
+Average basket ........... EUR 43.41
+Card payments ............ 71%
+Cash payments ............ 18%
+Mobile / vouchers ........ 11%
+Returns .................. 37 (EUR 1,284.60)
+
+TOP 10 PRODUCTS BY REVENUE (only the products below)
+SKU   PRODUCT                        QTY SOLD    UNIT PRICE   REVENUE (EUR)
+1010  Bacalhau Salgado               185.0 kg    11.90        2,201.50
+1004  Azeite Virgem Extra 750ml      310         6.99         2,166.90
+1006  Frango Inteiro                 520.0 kg    3.99         2,074.80
+1009  Cerveja Pack 6x33cl            690         3.99         2,753.10
+1002  Pao de Forma 500g              1,215       1.49         1,810.35
+1001  Leite Meio-Gordo 1L            1,840       0.89         1,637.60
+1007  Agua Mineral 1.5L              2,300       0.55         1,265.00
+1003  Arroz Agulha 1kg               960         1.19         1,142.40
+1005  Bananas                        740.0 kg    1.29         954.60
+1008  Detergente Loica 750ml         405         2.29         927.45
+
+SUBTOTAL OF LISTED PRODUCTS ........ EUR 16,933.70
+
+SALES BY SECTION
+Mercearia ........ EUR 41,230.10
+Frescos .......... EUR 52,880.40
+Bebidas .......... EUR 28,415.75
+Limpeza/Higiene .. EUR 19,320.60
+Bazar/Textil ..... EUR 24,110.35
+Eletronica ....... EUR 21,495.10
